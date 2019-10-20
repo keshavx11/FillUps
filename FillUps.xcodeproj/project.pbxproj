@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B11B7922359AEDF007AF305 /* KWFillBlankTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B11B7912359AEDF007AF305 /* KWFillBlankTextView.swift */; };
+		6B11B794235C574F007AF305 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B11B793235C574F007AF305 /* Extensions.swift */; };
+		6B11B796235CB72D007AF305 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B11B795235CB72D007AF305 /* Utilities.swift */; };
 		6BD34EA5234CC5F20069FA60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD34EA4234CC5F20069FA60 /* AppDelegate.swift */; };
-		6BD34EA7234CC5F20069FA60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD34EA6234CC5F20069FA60 /* SceneDelegate.swift */; };
 		6BD34EA9234CC5F20069FA60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD34EA8234CC5F20069FA60 /* ViewController.swift */; };
 		6BD34EAC234CC5F20069FA60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BD34EAA234CC5F20069FA60 /* Main.storyboard */; };
 		6BD34EAE234CC5F40069FA60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BD34EAD234CC5F40069FA60 /* Assets.xcassets */; };
 		6BD34EB1234CC5F40069FA60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BD34EAF234CC5F40069FA60 /* LaunchScreen.storyboard */; };
+		6BD34EBA234CCA460069FA60 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD34EB9234CCA460069FA60 /* NetworkManager.swift */; };
+		6BD34EBC234CCC840069FA60 /* DataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD34EBB234CCC840069FA60 /* DataGenerator.swift */; };
+		6BD34EBF234CCE8C0069FA60 /* WikiResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD34EBE234CCE8C0069FA60 /* WikiResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B11B7912359AEDF007AF305 /* KWFillBlankTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWFillBlankTextView.swift; sourceTree = "<group>"; };
+		6B11B793235C574F007AF305 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6B11B795235CB72D007AF305 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		6BD34EA1234CC5F20069FA60 /* FillUps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FillUps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BD34EA4234CC5F20069FA60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6BD34EA6234CC5F20069FA60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6BD34EA8234CC5F20069FA60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6BD34EAB234CC5F20069FA60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6BD34EAD234CC5F40069FA60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BD34EB0234CC5F40069FA60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BD34EB2234CC5F40069FA60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BD34EB9234CCA460069FA60 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		6BD34EBB234CCC840069FA60 /* DataGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataGenerator.swift; sourceTree = "<group>"; };
+		6BD34EBE234CCE8C0069FA60 /* WikiResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,11 +47,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B11B7902359AEA9007AF305 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6B11B7912359AEDF007AF305 /* KWFillBlankTextView.swift */,
+				6B11B795235CB72D007AF305 /* Utilities.swift */,
+				6B11B793235C574F007AF305 /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		6B11B797235CD6D2007AF305 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6BD34EA8234CC5F20069FA60 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		6BD34E98234CC5F20069FA60 = {
 			isa = PBXGroup;
 			children = (
 				6BD34EA3234CC5F20069FA60 /* FillUps */,
 				6BD34EA2234CC5F20069FA60 /* Products */,
+				6D1515406BF14441EA14C6FD /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +86,40 @@
 			isa = PBXGroup;
 			children = (
 				6BD34EA4234CC5F20069FA60 /* AppDelegate.swift */,
-				6BD34EA6234CC5F20069FA60 /* SceneDelegate.swift */,
-				6BD34EA8234CC5F20069FA60 /* ViewController.swift */,
+				6B11B797235CD6D2007AF305 /* Controllers */,
+				6B11B7902359AEA9007AF305 /* Utilities */,
+				6BD34EBD234CCE5F0069FA60 /* Models */,
+				6BD34EB8234CCA140069FA60 /* Managers */,
 				6BD34EAA234CC5F20069FA60 /* Main.storyboard */,
 				6BD34EAD234CC5F40069FA60 /* Assets.xcassets */,
 				6BD34EAF234CC5F40069FA60 /* LaunchScreen.storyboard */,
 				6BD34EB2234CC5F40069FA60 /* Info.plist */,
 			);
 			path = FillUps;
+			sourceTree = "<group>";
+		};
+		6BD34EB8234CCA140069FA60 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				6BD34EBB234CCC840069FA60 /* DataGenerator.swift */,
+				6BD34EB9234CCA460069FA60 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		6BD34EBD234CCE5F0069FA60 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6BD34EBE234CCE8C0069FA60 /* WikiResult.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6D1515406BF14441EA14C6FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +193,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BD34EBA234CCA460069FA60 /* NetworkManager.swift in Sources */,
 				6BD34EA9234CC5F20069FA60 /* ViewController.swift in Sources */,
+				6BD34EBF234CCE8C0069FA60 /* WikiResult.swift in Sources */,
 				6BD34EA5234CC5F20069FA60 /* AppDelegate.swift in Sources */,
-				6BD34EA7234CC5F20069FA60 /* SceneDelegate.swift in Sources */,
+				6BD34EBC234CCC840069FA60 /* DataGenerator.swift in Sources */,
+				6B11B7922359AEDF007AF305 /* KWFillBlankTextView.swift in Sources */,
+				6B11B796235CB72D007AF305 /* Utilities.swift in Sources */,
+				6B11B794235C574F007AF305 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +347,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 293K6F3WH6;
 				INFOPLIST_FILE = FillUps/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +366,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 293K6F3WH6;
 				INFOPLIST_FILE = FillUps/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
